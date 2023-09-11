@@ -1,0 +1,46 @@
+{
+    "flights": [
+        {   "id":"1",
+            "city":"Istanbul",
+            "destination":"Paris",
+            "flightDate":"12-09-2023",
+            "backDate":"12-12-2023",
+            "price":1500,
+            "goBack":true
+        },
+                {
+                    "id":"2",
+            "city":"Istanbul",
+            "destination":"Ankara",
+            "flightDate":"13-09-2023",
+            "backDate":"13-09-2023",
+            "price":150,
+            "goBack":false
+
+        },
+        {
+            "id":"3",
+
+            "city":"Istanbul",
+            "destination":"London",
+            "flightDate":"13-10-2023",
+            "backDate":null,
+            "price":150,
+            "goBack":false
+
+        },
+        {
+
+            "id":"4",
+
+            "city":"Ankara",
+            "destination":"London",
+            "flightDate":"2023-09-11",
+            "backDate":null,
+            "price":150,
+            "goBack":false
+
+        }
+        
+    ]
+}
