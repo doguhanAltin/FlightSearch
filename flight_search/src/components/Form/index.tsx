@@ -8,8 +8,8 @@ import { flightContext } from '../../context/flightContext';
 export const Form = () => {
     const {data,setData,filteredData,setFilteredData} = useContext(flightContext);
 
-    const [city, setCity] = useState<any>("");
-    const [destination, setDestination] = useState<any>();
+    const [city, setCity] = useState<string|null>("");
+    const [destination, setDestination] = useState<string|null>();
     const [flightDate, setFlightDate] = useState<Date | undefined>();
     const [backDate, setBackDate] = useState<Date | undefined>();
     const [goBack, setGoBack] = useState();

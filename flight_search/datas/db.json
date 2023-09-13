@@ -23,9 +23,9 @@
 
             "city":"Istanbul",
             "destination":"London",
-            "flightDate":"13-10-2023",
+            "flightDate":"13-10-2024",
             "backDate":null,
-            "price":150,
+            "price":175,
             "goBack":false
 
         },
@@ -35,7 +35,7 @@
 
             "city":"Ankara",
             "destination":"London",
-            "flightDate":"2023-09-11",
+            "flightDate":"09-11-2023",
             "backDate":null,
             "price":150,
             "goBack":false

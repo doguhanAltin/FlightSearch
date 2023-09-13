@@ -17,6 +17,7 @@ export const FlightsTable = (props:any) => {
             <TableCell align="right">İniş</TableCell>
             <TableCell align="right">Gidiş Tarihi</TableCell>
             <TableCell align="right">Geri Dönüş Tarihi</TableCell>
+            <TableCell align="right">Fiyat</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -31,6 +32,8 @@ export const FlightsTable = (props:any) => {
               <TableCell align="right">{row.destination}</TableCell>
               <TableCell align="right">{row.flightDate}</TableCell>
               <TableCell align="right">{row.backDate}</TableCell>
+              <TableCell align="right">{row.price}</TableCell>
+
             </TableRow>
           ))}
         </TableBody>
